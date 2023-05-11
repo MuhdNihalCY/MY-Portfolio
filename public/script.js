@@ -14,6 +14,7 @@ setTimeout(function() {
 }, 3000);
 
 
+
 function toggleMenu() {
     const slidingMenu = document.querySelector(".menu");
     slidingMenu.classList.toggle("active");
