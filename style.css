@@ -179,6 +179,9 @@ a:hover {
 /* MAin profile Ends Here */
 
 /* Worsk Starts Here */
+.WorkOne {
+    margin-bottom: 7rem;
+}
 
 .WorksHeadingH2 {
     margin-top: 5rem;
@@ -192,7 +195,7 @@ a:hover {
 
 .YearBox {
     background-color: red;
-    width: 5rem;
+    width: 8rem;
     height: 35px;
     color: var(--Light);
     border-radius: 20px;
@@ -209,25 +212,73 @@ a:hover {
     font-weight: 700;
 }
 
+.WorkBasicDetails {
+    display: flex;
+}
 
+.Features {
+    margin: 5px 15px;
+}
 
+.Features p {
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.WorkBriefPara {
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
 
+.WorkImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #828282a0 1px solid;
+    border-radius: 20px;
+    padding: 1rem 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.ImgOFWORK{
+    width: 90%;
+}
 
 
 
 section {
     margin-bottom: 10rem;
+}
+/* Works Ends Here */
+
+/* Footer Starts here */
+
+.FooterMainDiv {
+    /* padding-top: 5rem; */
+    height: 10rem;
+    width: 100%;
+    /* background-color: gray; */
+}
+
+.HRline {
+    color: gray;
+}
+.Social {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding-bottom: 3rem;
+}
+
+.SocialIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.IconFooter {
+    width: 25px;
+}
+
+.CopyRightFooter {
+    text-align: center;
 }
