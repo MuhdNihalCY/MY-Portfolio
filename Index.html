@@ -37,17 +37,12 @@
             <div class="sliding-menu">
               <ul class="VRul">
                 <li class="menu" onclick="toggleMenu()">
-                  <!-- <img
-                    class=" navVRItem closeIcon"
-                    src="/public/icon/close.svg"
-                    alt="menu"
-                  /> -->
                   <span class="material-symbols-outlined"> close </span>
                 </li>
                 <!-- Add your menu items here -->
-                <li class="navVRItem"><a href="/">Home</a></li>
-                <li class="navVRItem"><a href="#Works">Works</a></li>
-                <li class="navVRItem"><a href="#Contact">Contact</a></li>
+                <li onclick="toggleMenu()" class="navVRItem"><a href="/">Home</a></li>
+                <li onclick="toggleMenu()" class="navVRItem"><a href="#Works">Works</a></li>
+                <li onclick="toggleMenu()" class="navVRItem"><a href="#Contact">Contact</a></li>
               </ul>
             </div>
           </div>
