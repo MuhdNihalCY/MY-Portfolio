@@ -1,10 +1,10 @@
 // Hide the loader by default
-document.querySelector(".LoaderMain").style.display = "none";
+// document.querySelector(".LoaderMain").style.display = "none";
+document.querySelector(".LoaderMain").style.display = "flex";
+document.querySelector(".Content").style.display = "none";
 
 // Show the loader when the page is loaded
 window.addEventListener("load", function() {
-  document.querySelector(".LoaderMain").style.display = "flex";
-  document.querySelector(".Content").style.display = "none";
 });
 
 // Hide the loader after 3 seconds
