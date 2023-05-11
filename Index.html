@@ -20,149 +20,181 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="container">
-          <div class="BigScreen">
-            <ul>
-              <li class="navHRItem"><a href="/">Home</a></li>
-              <li class="navHRItem"><a href="#Works">Works</a></li>
-              <li class="navHRItem"><a href="#Contact">Contact</a></li>
-              <li class="menu" onclick="toggleMenu()">
-                <img class="menuIcon" src="/public/icon/menu.svg" alt="menu" />
-              </li>
-            </ul>
-          </div>
-          <div class="SmallScreen">
-            <div class="sliding-menu">
-              <ul class="VRul">
+    <div class="LoaderMain">
+      <div class="loader"></div>
+    </div>
+    <div class="Content">
+      <header>
+        <nav>
+          <div class="container">
+            <div class="BigScreen">
+              <ul>
+                <li class="navHRItem"><a href="/">Home</a></li>
+                <li class="navHRItem"><a href="#Works">Works</a></li>
+                <li class="navHRItem"><a href="#Contact">Contact</a></li>
                 <li class="menu" onclick="toggleMenu()">
-                  <span class="material-symbols-outlined"> close </span>
+                  <img
+                    class="menuIcon"
+                    src="/public/icon/menu.svg"
+                    alt="menu"
+                  />
                 </li>
-                <!-- Add your menu items here -->
-                <li onclick="toggleMenu()" class="navVRItem"><a href="/">Home</a></li>
-                <li onclick="toggleMenu()" class="navVRItem"><a href="#Works">Works</a></li>
-                <li onclick="toggleMenu()" class="navVRItem"><a href="#Connect">Connect</a></li>
               </ul>
             </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <section>
-      <div class="container">
-        <div class="body">
-          <!-- <div class="row"> -->
-          <div class="PhotoArea col-12 col-md-4 col-lg-4">
-            <div class="image-circle">
-              <img src="/icon.jpg" alt="Your Image Description" />
+            <div class="SmallScreen">
+              <div class="sliding-menu">
+                <ul class="VRul">
+                  <li class="menu" onclick="toggleMenu()">
+                    <span class="material-symbols-outlined"> close </span>
+                  </li>
+                  <!-- Add your menu items here -->
+                  <li onclick="toggleMenu()" class="navVRItem">
+                    <a href="/">Home</a>
+                  </li>
+                  <li onclick="toggleMenu()" class="navVRItem">
+                    <a href="#Works">Works</a>
+                  </li>
+                  <li onclick="toggleMenu()" class="navVRItem">
+                    <a href="#Connect">Connect</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="NameArea col-12 col-md-8 col-lg-8">
-            <div class="container-fluid">
-              <div class="nameAreaTExt1">
-                <h3>Hi, Iam</h3>
-                <h1>Nihal,</h1>
+        </nav>
+      </header>
+
+      <section>
+        <div class="container">
+          <div class="body">
+            <!-- <div class="row"> -->
+            <div class="PhotoArea col-12 col-md-4 col-lg-4">
+              <div class="image-circle">
+                <img src="/icon.jpg" alt="Your Image Description" />
               </div>
-              <h2>Web Developer</h2>
-              <div class="">
-                <p class="Profile_Brief">
-                  Crafting Seamless Digital Experiences: Mastering Node.js,
-                  Express.js, Handlebars, JavaScript, and Svelte with a
-                  Passionate Web Developer
+            </div>
+            <div class="NameArea col-12 col-md-8 col-lg-8">
+              <div class="container-fluid">
+                <div class="nameAreaTExt1">
+                  <h3>Hi, Iam</h3>
+                  <h1>Nihal,</h1>
+                </div>
+                <h2>Web Developer</h2>
+                <div class="">
+                  <p class="Profile_Brief">
+                    Crafting Seamless Digital Experiences: Mastering Node.js,
+                    Express.js, Handlebars, JavaScript, and Svelte with a
+                    Passionate Web Developer
+                  </p>
+                </div>
+                <div class="ResumeDownloadArea">
+                  <a href="# " class="btn btn-danger">Download Resume</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+
+      <!-- Main Body Ends Here -->
+
+      <!-- Works Start Here -->
+      <section>
+        <div class="container">
+          <h2 id="Works" class="WorksHeadingH2">Recent Works</h2>
+          <!-- one work -->
+          <div class="WorkOne">
+            <h3 class="WorkNameH3">Online Hotel Room Booking System</h3>
+            <div class="WorkBasicDetails">
+              <div class="YearBox"><p>2022</p></div>
+              <div class="Features">
+                <p>
+                  User Experience Design, Room Availabilty, Booking Management,
+                  Secure Payment Gateway, Vendor Dashboard, Reviews and Ratings,
+                  Mobile-Friendly, Customer Support, Loyalty Program
                 </p>
               </div>
-              <div class="ResumeDownloadArea">
-                <a href="# " class="btn btn-danger">Download Resume</a>
+            </div>
+            <div class="WorkBriefPara">
+              <p>
+                "Online hotel room booking systems make it easy to find and book
+                a hotel room. You can search for hotels by location, price, and
+                amenities, and read reviews from other travelers before booking.
+                Online hotel room booking systems offer a variety of benefits,
+                including convenience, efficiency, and security."
+              </p>
+            </div>
+            <div class="WorkImg">
+              <img class="ImgOFWORK" src="/img/StayOnn.png" alt="" />
+            </div>
+          </div>
+          <!-- end of one work -->
+          <!-- Work two -->
+          <div class="WorkOne">
+            <h3 class="WorkNameH3">Online Learning App</h3>
+            <div class="WorkBasicDetails">
+              <div class="YearBox"><p>2022</p></div>
+              <div class="Features">
+                <p>
+                  User Experience Design, Easy Download, Reviews and Ratings,
+                  Mobile-Friendly, Customer Support
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-        <!-- </div> -->
-      </div>
-    </section>
-
-    <!-- Main Body Ends Here -->
-
-    <!-- Works Start Here -->
-    <section>
-      <div class="container">
-        <h2 id="Works" class="WorksHeadingH2">Recent Works</h2>
-        <!-- one work -->
-        <div class="WorkOne">
-          <h3 class="WorkNameH3">Online Hotel Room Booking System</h3>
-          <div class="WorkBasicDetails">
-            <div class="YearBox"><p>2022</p></div>
-            <div class="Features">
+            <div class="WorkBriefPara">
               <p>
-                User Experience Design, Room Availabilty, Booking Management,
-                Secure Payment Gateway, Vendor Dashboard, Reviews and Ratings,
-                Mobile-Friendly, Customer Support, Loyalty Program
+                "My online learning app is a mobile-friendly and accessible way
+                to learn at your own pace and on your own time. It allows users
+                to download notes and question papers, watch lectures online,
+                and create personalized study plans."
               </p>
             </div>
-          </div>
-          <div class="WorkBriefPara">
-            <p>
-              "Online hotel room booking systems make it easy to find and book a
-              hotel room. You can search for hotels by location, price, and
-              amenities, and read reviews from other travelers before booking.
-              Online hotel room booking systems offer a variety of benefits,
-              including convenience, efficiency, and security."
-            </p>
-          </div>
-          <div class="WorkImg">
-            <img class="ImgOFWORK" src="/img/StayOnn.png" alt="" />
-          </div>
-        </div>
-        <!-- end of one work -->
-        <!-- Work two -->
-        <div class="WorkOne">
-          <h3 class="WorkNameH3">Online Learning App</h3>
-          <div class="WorkBasicDetails">
-            <div class="YearBox"><p>2022</p></div>
-            <div class="Features">
-              <p>
-                User Experience Design, Easy Download, Reviews and Ratings,
-                Mobile-Friendly, Customer Support
-              </p>
+            <div class="WorkImg">
+              <img class="ImgOFWORK" src="/img/StayOnn.png" alt="" />
             </div>
           </div>
-          <div class="WorkBriefPara">
-            <p>
-              "My online learning app is a mobile-friendly and accessible way to
-              learn at your own pace and on your own time. It allows users to
-              download notes and question papers, watch lectures online, and
-              create personalized study plans."
-            </p>
-          </div>
-          <div class="WorkImg">
-            <img class="ImgOFWORK" src="/img/StayOnn.png" alt="" />
-          </div>
+          <!-- end of work two  -->
         </div>
-        <!-- end of work two  -->
-      </div>
-    </section>
-    <!-- Works Ends Here -->
+      </section>
+      <!-- Works Ends Here -->
 
-    <!-- footer Starts Here -->
+      <!-- footer Starts Here -->
 
-    <footer>
-      <div class="FooterMainDiv">
-        <div class="container">
-          <hr class="HRline">
-          <div class="Social">
-            <div id="Connect" class="SocialIcon">
-              <a href="https://www.linkedin.com/in/mnihalcy/"><img class="IconFooter" src="/public/icon/Linkedin.png" alt=""></a>
-              <a href="https://github.com/MuhdNihalCY"><img class="IconFooter" src="/public/icon/github.png" alt=""></a>
-              <a href="https://instagram.com/nihal.cy?igshid=MzRlODBiNWFlZA=="><img class="IconFooter" src="/public/icon/instagram.png" alt=""></a>
-              <a href="https://twitter.com/nihal_cy"><img class="IconFooter" src="/public/icon/twitter.png" alt=""></a>
+      <footer>
+        <div class="FooterMainDiv">
+          <div class="container">
+            <hr class="HRline" />
+            <div class="Social">
+              <div id="Connect" class="SocialIcon">
+                <a href="https://www.linkedin.com/in/mnihalcy/"
+                  ><img
+                    class="IconFooter"
+                    src="/public/icon/Linkedin.png"
+                    alt=""
+                /></a>
+                <a href="https://github.com/MuhdNihalCY"
+                  ><img class="IconFooter" src="/public/icon/github.png" alt=""
+                /></a>
+                <a href="https://instagram.com/nihal.cy?igshid=MzRlODBiNWFlZA=="
+                  ><img
+                    class="IconFooter"
+                    src="/public/icon/instagram.png"
+                    alt=""
+                /></a>
+                <a href="https://twitter.com/nihal_cy"
+                  ><img
+                    class="IconFooter"
+                    src="/public/icon/twitter.png"
+                    alt=""
+                /></a>
+              </div>
+              <p class="CopyRightFooter">Copyright @2023 All Rights reserved</p>
             </div>
-            <p class="CopyRightFooter">Copyright @2023 All Rights reserved</p>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="/public/script.js"></script>
 
